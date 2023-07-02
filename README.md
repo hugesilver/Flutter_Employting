@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td align="center"><b>hugesilver</b></td>
-    <td align="center"><b>Su Hun Park</b></td>
+    <td align="center"><b>suhun-park</b></td>
   </tr>
 </table>
 
