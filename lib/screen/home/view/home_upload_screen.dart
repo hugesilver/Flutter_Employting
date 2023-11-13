@@ -3,14 +3,13 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutting/constant/colors.dart';
-import 'package:flutting/constant/fonts.dart';
-import 'package:flutting/screen/home/controller/home_upload_controller.dart';
+import 'package:employting/constant/colors.dart';
+import 'package:employting/constant/fonts.dart';
+import 'package:employting/screen/home/controller/home_upload_controller.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 
 import '../../../constant/named_widget.dart';
-
 
 class HomeUploadScreen extends StatelessWidget {
   HomeUploadScreen({super.key});
@@ -18,46 +17,46 @@ class HomeUploadScreen extends StatelessWidget {
   final HomeUploadController controller = Get.put(HomeUploadController());
 
   TextStyle inputTextDeco() => TextStyle(
-    fontFamily: 'Pretendard',
-    fontSize: 18.sp,
-    fontWeight: medium,
-    color: etBlack,
-  );
+        fontFamily: 'Pretendard',
+        fontSize: 18.sp,
+        fontWeight: medium,
+        color: etBlack,
+      );
 
   InputDecoration inputDeco(String? hintText) => InputDecoration(
-    hintText: hintText,
-    hintStyle: TextStyle(
-      fontFamily: 'Pretendard',
-      fontSize: 18.sp,
-      fontWeight: medium,
-      color: etBlack,
-    ),
-    contentPadding: EdgeInsets.symmetric(
-      vertical: 10.h,
-      horizontal: 10.w,
-    ),
-    enabledBorder: OutlineInputBorder(
-      borderRadius: BorderRadius.zero,
-      borderSide: BorderSide(
-        width: 1.w,
-        color: etLightGrey,
-      ),
-    ),
-    focusedBorder: OutlineInputBorder(
-      borderRadius: BorderRadius.zero,
-      borderSide: BorderSide(
-        width: 1.w,
-        color: etLightGrey,
-      ),
-    ),
-    disabledBorder: OutlineInputBorder(
-      borderRadius: BorderRadius.zero,
-      borderSide: BorderSide(
-        width: 1.w,
-        color: etDarkGrey,
-      ),
-    ),
-  );
+        hintText: hintText,
+        hintStyle: TextStyle(
+          fontFamily: 'Pretendard',
+          fontSize: 18.sp,
+          fontWeight: medium,
+          color: etBlack,
+        ),
+        contentPadding: EdgeInsets.symmetric(
+          vertical: 10.h,
+          horizontal: 10.w,
+        ),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.zero,
+          borderSide: BorderSide(
+            width: 1.w,
+            color: etLightGrey,
+          ),
+        ),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.zero,
+          borderSide: BorderSide(
+            width: 1.w,
+            color: etLightGrey,
+          ),
+        ),
+        disabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.zero,
+          borderSide: BorderSide(
+            width: 1.w,
+            color: etDarkGrey,
+          ),
+        ),
+      );
 
   @override
   Widget build(BuildContext context) {
@@ -121,18 +120,18 @@ class HomeUploadScreen extends StatelessWidget {
                       child: Align(
                         alignment: Alignment.centerRight,
                         child: Obx(
-                              () => GestureDetector(
+                          () => GestureDetector(
                             onTap: controller.titleText.isNotEmpty &&
-                                controller.companyText.isNotEmpty &&
-                                controller.contentText.isNotEmpty &&
-                                controller.isLoading == false
+                                    controller.companyText.isNotEmpty &&
+                                    controller.contentText.isNotEmpty &&
+                                    controller.isLoading == false
                                 ? () {
-                              final now = DateTime.now();
-                              controller.uploadPost(
-                                DateFormat('yyyyMMddHHmmss').format(now),
-                                now,
-                              );
-                            }
+                                    final now = DateTime.now();
+                                    controller.uploadPost(
+                                      DateFormat('yyyyMMddHHmmss').format(now),
+                                      now,
+                                    );
+                                  }
                                 : () {},
                             child: Text(
                               "완료",
@@ -141,9 +140,9 @@ class HomeUploadScreen extends StatelessWidget {
                                 fontSize: 18.sp,
                                 fontWeight: medium,
                                 color: controller.titleText.isNotEmpty &&
-                                    controller.companyText.isNotEmpty &&
-                                    controller.contentText.isNotEmpty &&
-                                    controller.isLoading == false
+                                        controller.companyText.isNotEmpty &&
+                                        controller.contentText.isNotEmpty &&
+                                        controller.isLoading == false
                                     ? etBlue
                                     : etLightGrey,
                               ),
@@ -229,7 +228,7 @@ class HomeUploadScreen extends StatelessWidget {
                           child: SizedBox(
                             width: double.infinity,
                             child: Obx(
-                                  () => Text(
+                              () => Text(
                                 '마감일: ${DateFormat('yyyy. M. d', 'ko_KR').format(controller.endDate.value)}',
                                 style: inputTextDeco(),
                               ),
@@ -255,6 +254,9 @@ class HomeUploadScreen extends StatelessWidget {
                           controller.changeContent(value);
                         },
                       ),
+                    ),
+                    SizedBox(
+                      height: 20.h,
                     ),
                     InkWell(
                       onTap: () => controller.homeUploadPDF(),

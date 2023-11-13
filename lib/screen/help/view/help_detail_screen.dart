@@ -2,10 +2,10 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutting/constant/colors.dart';
-import 'package:flutting/constant/fonts.dart';
-import 'package:flutting/constant/named_widget.dart';
-import 'package:flutting/screen/pdf/pdf_screen.dart';
+import 'package:employting/constant/colors.dart';
+import 'package:employting/constant/fonts.dart';
+import 'package:employting/constant/named_widget.dart';
+import 'package:employting/screen/pdf/pdf_screen.dart';
 import 'package:get/get.dart';
 
 class HelpDetailScreen extends StatelessWidget {

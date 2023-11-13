@@ -5,12 +5,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:flutting/constant/colors.dart';
-import 'package:flutting/constant/fonts.dart';
-import 'package:flutting/constant/named_widget.dart';
-import 'package:flutting/main.dart';
-import 'package:flutting/root_tab/view/root_tab_view.dart';
-import 'package:flutting/screen/signin/controller/signin_controller.dart';
+import 'package:employting/constant/colors.dart';
+import 'package:employting/constant/fonts.dart';
+import 'package:employting/constant/named_widget.dart';
+import 'package:employting/main.dart';
+import 'package:employting/root_tab/view/root_tab_view.dart';
+import 'package:employting/screen/signin/controller/signin_controller.dart';
 import 'package:get/get.dart';
 
 class SigninScreen extends StatelessWidget {

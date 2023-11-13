@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutting/screen/help/model/help_model.dart';
+import 'package:employting/screen/help/model/help_model.dart';
 import 'package:get/get.dart';
 
 class HelpController extends GetxController {
@@ -20,5 +20,4 @@ class HelpController extends GetxController {
           .toList();
     });
   }
-
 }

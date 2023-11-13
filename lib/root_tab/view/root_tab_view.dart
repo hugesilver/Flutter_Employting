@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutting/screen/webview/view/webview_screen.dart';
+import 'package:employting/screen/webview/view/webview_screen.dart';
 import 'package:get/get.dart';
 
 import '../../constant/colors.dart';

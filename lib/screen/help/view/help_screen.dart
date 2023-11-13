@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutting/constant/colors.dart';
-import 'package:flutting/constant/fonts.dart';
-import 'package:flutting/constant/named_widget.dart';
-import 'package:flutting/screen/help/controller/help_controller.dart';
-import 'package:flutting/screen/help/model/help_model.dart';
-import 'package:flutting/screen/help/view/help_detail_screen.dart';
+import 'package:employting/constant/colors.dart';
+import 'package:employting/constant/fonts.dart';
+import 'package:employting/constant/named_widget.dart';
+import 'package:employting/screen/help/controller/help_controller.dart';
+import 'package:employting/screen/help/model/help_model.dart';
+import 'package:employting/screen/help/view/help_detail_screen.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 

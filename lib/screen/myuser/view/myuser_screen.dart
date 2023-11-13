@@ -1,16 +1,17 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:employting/screen/splash_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:flutting/constant/colors.dart';
-import 'package:flutting/constant/fonts.dart';
-import 'package:flutting/constant/named_widget.dart';
-import 'package:flutting/main.dart';
-import 'package:flutting/root_tab/view/root_tab_view.dart';
-import 'package:flutting/screen/myuser/controller/myuser_controller.dart';
-import 'package:flutting/screen/myuser/layout/text_container_layout.dart';
+import 'package:employting/constant/colors.dart';
+import 'package:employting/constant/fonts.dart';
+import 'package:employting/constant/named_widget.dart';
+import 'package:employting/main.dart';
+import 'package:employting/root_tab/view/root_tab_view.dart';
+import 'package:employting/screen/myuser/controller/myuser_controller.dart';
+import 'package:employting/screen/myuser/layout/text_container_layout.dart';
 import 'package:get/get.dart';
 
 class MyUserScreen extends GetView<MyUserController> {
@@ -473,7 +474,7 @@ class MyUserScreen extends GetView<MyUserController> {
                     onTap: () async {
                       await const FlutterSecureStorage().deleteAll();
                       await FirebaseAuth.instance.signOut();
-                      Get.to(() => const RootTab());
+                      Get.offAll(() => const SplashScreen());
                     },
                     child: Text(
                       "로그아웃",

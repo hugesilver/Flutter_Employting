@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutting/constant/colors.dart';
-import 'package:flutting/constant/named_widget.dart';
-import 'package:flutting/main.dart';
-import 'package:flutting/screen/home/controller/home_controller.dart';
-import 'package:flutting/screen/home/model/home_model.dart';
-import 'package:flutting/screen/home/view/home_detail_screen.dart';
+import 'package:employting/constant/colors.dart';
+import 'package:employting/constant/named_widget.dart';
+import 'package:employting/main.dart';
+import 'package:employting/screen/home/controller/home_controller.dart';
+import 'package:employting/screen/home/model/home_model.dart';
+import 'package:employting/screen/home/view/home_detail_screen.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 

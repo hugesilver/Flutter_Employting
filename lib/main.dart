@@ -2,9 +2,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutting/constant/colors.dart';
-import 'package:flutting/firebase_options.dart';
-import 'package:flutting/screen/splash_screen.dart';
+import 'package:employting/constant/colors.dart';
+import 'package:employting/firebase_options.dart';
+import 'package:employting/screen/splash_screen.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:intl/date_symbol_data_local.dart';
 

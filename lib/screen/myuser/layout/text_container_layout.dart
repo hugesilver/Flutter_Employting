@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutting/constant/colors.dart';
+import 'package:employting/constant/colors.dart';
 
 class TextContainerLayout extends StatelessWidget {
   Widget? child;

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutting/constant/colors.dart';
-import 'package:flutting/constant/fonts.dart';
-import 'package:flutting/constant/named_widget.dart';
-import 'package:flutting/screen/signup/signup_screen.dart';
+import 'package:employting/constant/colors.dart';
+import 'package:employting/constant/fonts.dart';
+import 'package:employting/constant/named_widget.dart';
+import 'package:employting/screen/signup/signup_screen.dart';
 import 'package:get/get.dart';
 
 import 'signin/signin_screen.dart';
@@ -74,7 +74,7 @@ class SplashScreen extends StatelessWidget {
                             Get.to(() => SigninScreen());
                           },
                           child: Container(
-                            height: 38.h,
+                            height: 42.h,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(
                                 5.r,

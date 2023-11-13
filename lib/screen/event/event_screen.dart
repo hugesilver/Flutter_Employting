@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutting/main.dart';
-import 'package:flutting/screen/event/controller/event_controller.dart';
-import 'package:flutting/screen/event/event_detail_screen.dart';
+import 'package:employting/main.dart';
+import 'package:employting/screen/event/controller/event_controller.dart';
+import 'package:employting/screen/event/event_detail_screen.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 

@@ -6,6 +6,7 @@
 플러팅 팀의 우리학교만을 위한 취업 플랫폼, 취업팅
 
 ## Contributors
+
 <table>
   <tr>
     <td align="center">
@@ -26,6 +27,7 @@
 </table>
 
 ## Technology Stack
+
 <table>
   <tr>
     <td align="center">
@@ -42,16 +44,17 @@
 </table>
 
 ## Dependencies
-* <a href="https://pub.dev/packages/cached_network_image">cached_network_image:</a> ^3.2.3
-* <a href="https://pub.dev/packages/cloud_firestore">cloud_firestore:</a> ^4.8.1
-* <a href="https://pub.dev/packages/file_picker">file_picker:</a> ^5.3.2
-* <a href="https://pub.dev/packages/firebase_auth">firebase_auth:</a> ^4.6.3
-* <a href="https://pub.dev/packages/firebase_core">firebase_core:</a> ^2.14.0
-* <a href="https://pub.dev/packages/firebase_storage">firebase_storage:</a> ^11.2.3
-* <a href="https://pub.dev/packages/flutter_cached_pdfview">flutter_cached_pdfview:</a> ^0.4.1
-* <a href="https://pub.dev/packages/flutter_screenutil">flutter_screenutil:</a>
-* <a href="https://pub.dev/packages/flutter_secure_storage">flutter_secure_storage:</a>
-* <a href="https://pub.dev/packages/get">get:</a> ^4.6.5
-* <a href="https://pub.dev/packages/image_picker">image_picker:</a> ^0.8.7+1
-* <a href="https://pub.dev/packages/intl">intl:</a> ^0.18.0
-* <a href="https://pub.dev/packages/webview_flutter">webview_flutter:</a> ^4.2.2
+
+- <a href="https://pub.dev/packages/cached_network_image">cached_network_image:</a> ^3.2.3
+- <a href="https://pub.dev/packages/cloud_firestore">cloud_firestore:</a>
+- <a href="https://pub.dev/packages/file_picker">file_picker:</a> ^5.3.2
+- <a href="https://pub.dev/packages/firebase_auth">firebase_auth:</a>
+- <a href="https://pub.dev/packages/firebase_core">firebase_core:</a>
+- <a href="https://pub.dev/packages/firebase_storage">firebase_storage:</a>
+- <a href="https://pub.dev/packages/flutter_cached_pdfview">flutter_cached_pdfview:</a> ^0.4.1
+- <a href="https://pub.dev/packages/flutter_screenutil">flutter_screenutil:</a>
+- <a href="https://pub.dev/packages/flutter_secure_storage">flutter_secure_storage:</a>
+- <a href="https://pub.dev/packages/get">get:</a> ^4.6.5
+- <a href="https://pub.dev/packages/image_picker">image_picker:</a> ^0.8.7+1
+- <a href="https://pub.dev/packages/intl">intl:</a> ^0.18.0
+- <a href="https://pub.dev/packages/webview_flutter">webview_flutter:</a> ^4.2.2

@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutting/screen/home/model/home_model.dart';
+import 'package:employting/screen/home/model/home_model.dart';
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
